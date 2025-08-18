@@ -1,0 +1,177 @@
+header {
+    display: flex;
+    background-color: #004c54;
+    height: 150px;
+    align-items: center;
+    
+    
+}
+nav {
+display: flex;
+gap: 50px;
+padding: 10px;  
+
+}
+a {
+color: #a5acaf;
+text-decoration: none;
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+font-size: 30px;
+
+}
+
+#logoheader {
+  width: 15vw;   
+  max-width: 200px;
+  height: auto;
+  padding: 20px;
+}
+
+
+#portada {
+    width: 100%;
+}
+
+#team {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;     
+    gap: 20px;
+                    
+}
+
+.jugador {
+    display: flex;
+    flex-direction: column;
+    align-items: center;  
+    text-align: center;   
+}
+
+
+#team p {
+    color:#004c54;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-style: oblique;
+}
+
+h1 {
+  color: #004c54; 
+  text-align: center;
+  font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; 
+  font-size: 60px;
+}
+
+h3 {
+color: #004c54;
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+text-align: center;
+}
+
+.doscol {
+  width: 100%;
+  display: flex;
+  gap: 40px;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+.doscol form {
+  flex: 1 1 400px;
+  max-width: 500px;
+}
+
+.doscol img {
+  width: 100%;
+  flex: 1 1 300px;
+  max-width: 500px;
+  height: auto;
+  object-fit: contain;
+}
+
+
+form label,
+form input,
+form textarea,
+form button {
+  display: block;    
+  width: 100%;       
+  margin-bottom: 15px; 
+  box-sizing: border-box;
+}
+
+.mensaje-boton {
+  display: flex;
+  gap: 10px;
+}
+
+.mensaje-boton textarea {
+  flex: 1; 
+  margin-bottom: 0; 
+}
+
+.mensaje-boton button {
+  width: auto; 
+  margin-bottom: 0;
+  cursor: pointer;
+  background-color: #004c54;
+  color: white;
+  border: none;
+  padding: 0 20px;
+  font-weight: bold;
+  border-radius: 4px;
+  height: 40px;
+}
+
+.mensaje {
+color: #004c54;
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+font-size: 16px;
+}
+
+h2 {
+    color: rgb(0, 95, 47);
+}
+
+
+
+
+
+#historia {
+  width: 100%;
+  background-color: #004c54;
+  color: #a5acaf;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 14px;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+
+#historia img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+}
+
+#historiatext {
+width: 100%;
+  margin: 10px;
+  padding: 20px;
+  box-sizing: border-box;
+  word-break: break-word;
+  overflow-wrap: break-word;
+}
+
+.col-texto {
+  flex: 1 1 300px;
+  max-width: 500px;
+  color: #004c54;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  text-align: left;
+}
+
+
+
